@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp"
+    android:layout_margin="6dp"
+    app:cardBackgroundColor="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/layout_item_fil_ivPoster"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/layout_item_fil_tvTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Título do filme"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_below="@+id/layout_item_fil_ivPoster"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:padding="16dp"
+            />
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>
